@@ -5,24 +5,18 @@ body {
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
-    
+    margin: 0;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    width: 25%;
     background-color: #24252A;
     position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-}
-
-li {
-    float: left;
-    padding: 10px;
+    height: 100%;
+    overflow: auto;
 }
 
 li a {
@@ -31,10 +25,8 @@ li a {
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
-    text-align: center;
-    padding: 5px 20px;
+    padding: 8px 16px;
     text-decoration: none;
-    border-radius: 30px;
 }
 
 li a:hover:not(.active) {
@@ -57,5 +49,5 @@ li a:hover:not(.active) {
     width: 100%;
     background-color: #24252A;
     color: #edf0f1;
-    text-align: right;
+    text-align: left;
 }
