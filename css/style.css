@@ -1,7 +1,7 @@
 body {
     background-color: #333;
-    font-family: "Montserrat", sans-serif;
-    color: #edf0f1;
+    font-family: 'VT323', monospace;
+    color: #00ff00;
     text-decoration: none;
     margin: 0;
 }
@@ -19,8 +19,8 @@ ul {
 
 li a {
     display: block;
-    font-family: "Montserrat", sans-serif;
-    color: #edf0f1;
+    font-family: 'VT323', monospace;
+    color: #00ff00;
     padding: 8px 16px;
     text-decoration: none;
 }
@@ -34,7 +34,7 @@ li a:hover:not(.active) {
 }
 
 .link {
-    color: #edf0f1;
+    color: #00ffff;
     text-decoration: underline;
 }
 
@@ -44,6 +44,6 @@ li a:hover:not(.active) {
     bottom: 0;
     width: 100%;
     background-color: #24252A;
-    color: #edf0f1;
+    color: #00ff00;
     text-align: left;
 }
