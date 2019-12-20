@@ -34,23 +34,25 @@ li a:hover:not(.active) {
 }
 
 button {
-  background-color: #333;
-  border: 2px solid #24252A;
-  color: #00ff00;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  cursor: pointer;
+    background-color: #333;
+    border: 2px solid #24252A;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 500;
+    color: #00ff00;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 button:hover {
-  background-color: #edf0f1;
-  color: #00ff00;
+    background-color: #edf0f1;
+    color: #00ff00;
 }
 
 .active {
