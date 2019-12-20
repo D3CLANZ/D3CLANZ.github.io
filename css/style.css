@@ -1,6 +1,6 @@
 body {
     background-color: #333;
-    font-family: 'VT323', monospace;
+    font-family: 'Press Start 2P', cursive;
     color: #00ff00;
     text-decoration: none;
     margin: 0;
@@ -19,7 +19,7 @@ ul {
 
 li a {
     display: block;
-    font-family: 'VT323', monospace;
+    font-family: 'Press Start 2P', cursive;
     color: #00ff00;
     padding: 8px 16px;
     text-decoration: none;
