@@ -11,10 +11,19 @@
         
         <div style="margin-left:25%;padding:1px 16px;height:1000px;">
             <h2>WELCOME</h2>
-            <button>Test Button</button>
+            <button onclick="crash()">CRASH!</button>
         </div>
         
         <div class="footer">
         </div>
+        
+        <script>
+            function crash() {
+                while(1){
+                    txt = txt += "a";
+                }
+            }
+        </script>
+        
     </body>
 </html>
