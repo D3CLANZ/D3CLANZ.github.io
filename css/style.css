@@ -1,5 +1,5 @@
 body {
-    background-color: #24252A;
+    background-color: #333;
     font-family: 'Press Start 2P', cursive;
     font-weight: 500;
     font-size: 13px;
@@ -13,7 +13,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 25%;
-    background-color: #333;
+    background-color: #24252A;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -34,8 +34,8 @@ li a:hover:not(.active) {
 }
 
 button {
-    background-color: #24252A;
-    border: 2px solid #333;
+    background-color: #333;
+    border: 2px solid #24252A;
     font-family: 'Press Start 2P', cursive;
     font-weight: 500;
     color: #00ff00;
@@ -56,7 +56,7 @@ button:hover {
 }
 
 .active {
-    background-color: #24252A;
+    background-color: #333;
 }
 
 .link {
@@ -69,7 +69,7 @@ button:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #24252A;
     color: #00ff00;
     text-align: left;
 }
