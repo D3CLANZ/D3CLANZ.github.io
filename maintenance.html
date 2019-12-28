@@ -3,10 +3,59 @@
     <head>
         <meta charset="UTF-8">
         <title>SITE IS UNDER MAINTENANCE</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+            body {
+                background-color: #333;
+                font-family: 'Press Start 2P', cursive;
+                font-weight: 500;
+                font-size: 13px;
+                color: #ff0000;
+                text-decoration: none;
+                margin: 0;
+                vertical-align: middle;
+                text-align: center;
+            }
+            .blink {
+                -webkit-animation: blink .75s linear infinite;
+                -moz-animation: blink .75s linear infinite;
+                -ms-animation: blink .75s linear infinite;
+                -o-animation: blink .75s linear infinite;
+                animation: blink .80s linear infinite;
+            }
+            @-webkit-keyframes blink {
+                0% { opacity: 1; }
+                50% { opacity: 1; }
+                50.01% { opacity: 0; }
+                100% { opacity: 0; }
+            }
+            @-moz-keyframes blink {
+                0% { opacity: 1; }
+                50% { opacity: 1; }
+                50.01% { opacity: 0; }
+                100% { opacity: 0; }
+            }
+            @-ms-keyframes blink {
+                0% { opacity: 1; }
+                50% { opacity: 1; }
+                50.01% { opacity: 0; }
+                100% { opacity: 0; }
+            }
+            @-o-keyframes blink {
+                0% { opacity: 1; }
+                50% { opacity: 1; }
+                50.01% { opacity: 0; }
+                100% { opacity: 0; }
+            }
+            @keyframes blink {
+                0% { opacity: 1; }
+                50% { opacity: 1; }
+                50.01% { opacity: 0; }
+                100% { opacity: 0; }
+            }
+        </style>
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
     </head>
     <body>
-        <p style="font-size: 48px; vertical-align: middle; color: red;">UNDER MAINTENANCE</p>
+        <p class="blink" style="font-size: 48px;">UNDER MAINTENANCE</p>
     </body>
 </html>
