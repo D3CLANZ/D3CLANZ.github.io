@@ -50,11 +50,14 @@
             }
             
             function checkCookie() {
-                var visitedBefore = getCookie("visitedBefore");
-                if (visitedBefore == 1) {
-                    document.getElementById("welcome").innerHTML = "Welcome Back!";
+                var user = getCookie("username");
+                if (user != 0) {
+                    document.getElementById("welcome").innerHTML = "Welcome back, " + user + "!";
                 } else {
-                    setCookie("visitedBefore", 1, 30);
+                    user = prompt("Please enter your name:","");
+                    if (user != "" && user != null) {
+                        setCookie("username", user, 30);
+                    }
                 }
             }
             
