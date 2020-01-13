@@ -51,10 +51,11 @@
             
             function checkCookie() {
                 var visitedBefore = getCookie("visitedBefore");
-                if (visitedBefore = 1) {
+                if (visitedBefore != 0) {
                     document.getElementById("welcome").innerHTML = "Welcome Back!";
                 } else {
-                    setCookie("visitedBefore", 1, 30);
+                    if (visitedBefore != 0 && visitedBefore != null) {
+                         setCookie("visitedBefore", 1, 30);
                     }
                 }
             }
