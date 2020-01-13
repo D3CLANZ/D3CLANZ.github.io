@@ -21,7 +21,7 @@
         </div>
         
         <div class="footer">
-            <p class="welcome"></p>
+            <p id="welcome"></p>
         </div>
         
         <script type="text/javascript">
@@ -51,11 +51,10 @@
             
             function checkCookie() {
                 var visitedBefore = getCookie("visitedBefore");
-                if (visitedBefore != 0) {
+                if (visitedBefore = 1) {
                     document.getElementById("welcome").innerHTML = "Welcome Back!";
                 } else {
-                    if (visitedBefore != 0 && visitedBefore != null) {
-                        setCookie("visitedBefore", 1, 30);
+                    setCookie("visitedBefore", 1, 30);
                     }
                 }
             }
