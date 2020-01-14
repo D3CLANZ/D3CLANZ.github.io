@@ -52,7 +52,7 @@
             function checkCookie() {
                 var visitCount = getCookie("visitCount");
                 if (visitCount != 0) {
-                    document.getElementById("welcome").innerHTML = "You\'ve visited this page " + visitCount + " times!";
+                    document.getElementById("welcome").innerHTML = "You\'ve visited<br>this page " + visitCount + " times!";
                     setCookie("visitCount", ++visitCount, 30);
                 } else {
                     document.getElementById("welcome").innerHTML = "This is your first visit!";
