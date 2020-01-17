@@ -54,11 +54,11 @@
             function checkCookie() {
                 var visitCount = getCookie("visitCount");
                 if (visitCount != 0) {
-                    document.getElementById("welcome").innerHTML = "You\'ve visited " + visitCount + " times!";
                     setCookie("visitCount", ++visitCount, 30);
+                    document.getElementById("welcome").innerHTML = "You\'ve visited " + visitCount + " times!";
                 } else {
-                    document.getElementById("welcome").innerHTML = "This is your first visit!";
                     setCookie("visitCount", 1, 30);
+                    document.getElementById("welcome").innerHTML = "This is your first visit!";
                 }
             }
             
