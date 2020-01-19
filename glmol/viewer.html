@@ -184,7 +184,7 @@ function download(query) {
       if (!query.match(/^[1-9][A-Za-z0-9]{3}$/)) {
          alert("Wrong PDB ID"); return;
       }
-      uri = "https://http://files.rcsb.org/view/" + query + ".pdb";
+      uri = "https://files.rcsb.org/view/" + query + ".pdb";
    } else if (query.substr(0, 4) == 'cid:') {
       query = query.substr(4);
       if (!query.match(/^[1-9]+$/)) {
