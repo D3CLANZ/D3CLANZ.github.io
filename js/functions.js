@@ -32,7 +32,7 @@ function checkCookie() {
         document.getElementById("welcome").innerHTML = "This is your first visit!";
     } else {
         document.getElementById("footer").innerHTML = "<p class=\"blink\" style=\"color: red; margin: 8px;\">SCRIPT ERROR</p>";
-        document.getElementById("main").innerHTML = "<h1>WELCOME</h1><br/><button onclick=\"allowCookies()\">ALLOW COOKIES</button>"
+        document.getElementById("main").innerHTML = "<h1>WELCOME</h1><button onclick=\"allowCookies()\">ALLOW COOKIES</button>"
     }
 }
 
