@@ -31,8 +31,13 @@ function checkCookie() {
         setCookie("visitCount", 1, 30);
         document.getElementById("welcome").innerHTML = "This is your first visit!";
     } else {
-        document.getElementById("footer").innerHTML = "<button onclick=\"setCookie(\'allowedCookies\', 1, 30)\">ALLOW COOKIES</button>";
+        document.getElementById("footer").innerHTML = "<button onclick=\"allowCookies()\">ALLOW COOKIES</button>";
     }
+}
+
+function allowCookies() {
+    setCookie("allowedCookies" 1, 30);
+    location.reload(true);
 }
 
 function onClick(targetPage) {
