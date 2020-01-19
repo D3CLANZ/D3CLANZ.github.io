@@ -36,7 +36,7 @@ function checkCookie() {
 }
 
 function allowCookies() {
-    setCookie("allowedCookies" 1, 30);
+    setCookie("allowedCookies", 1, 30);
     location.reload(true);
 }
 
