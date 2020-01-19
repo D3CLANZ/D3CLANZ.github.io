@@ -23,12 +23,15 @@ function getCookie(cname) {
 
 function checkCookie() {
     var visitCount = getCookie("visitCount");
-    if (visitCount != 0) {
+    var allowedCookies = getCookie("allowedCookies");
+    if (visitCount != 0 && allowedCookies != 0) {
         setCookie("visitCount", ++visitCount, 30);
         document.getElementById("welcome").innerHTML = "You\'ve visited " + visitCount + " times!";
-    } else {
+    } else if(visitCount == 0 && allowedCookies != 0) {
         setCookie("visitCount", 1, 30);
         document.getElementById("welcome").innerHTML = "This is your first visit!";
+    } else {
+        document.getElementById("footer").innerHTML = "<button onclick=\"setCookie(\'allowedCookies\', 1, 30)\">ALLOW COOKIES</button>";
     }
 }
 
