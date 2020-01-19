@@ -31,7 +31,8 @@ function checkCookie() {
         setCookie("visitCount", 1, 30);
         document.getElementById("welcome").innerHTML = "This is your first visit!";
     } else {
-        document.getElementById("footer").innerHTML = "<button class=\"footerButton\" onclick=\"allowCookies()\">ALLOW COOKIES</button><p class=\"blink\" style=\"color: red; margin: 8px;\">SCRIPT ERROR</p>";
+        document.getElementById("footer").innerHTML = "<p class=\"blink\" style=\"color: red; margin: 8px;\">SCRIPT ERROR</p>";
+        document.getElementById("main").innerHTML = "<button class=\"footerButton\" onclick=\"allowCookies()\">ALLOW COOKIES</button>"
     }
 }
 
