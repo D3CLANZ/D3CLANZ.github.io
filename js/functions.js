@@ -50,6 +50,6 @@ function onClick(targetPage) {
 }
 
 
-document.addEventListener("DOMContentLoaded", function() {
+window.onload = function() {
     document.getElementById("footer").innerHTML = "<p class=\"blink\" style=\"color: red; margin: 8px;\">UNDER MAINTENANCE</p>";
-});
+}
