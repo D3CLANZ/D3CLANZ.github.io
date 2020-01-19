@@ -188,14 +188,14 @@ function download(query) {
       uri = "https://files.rcsb.org/view/" + query + ".pdb";
    } else if (query.substr(0, 4) == 'cid:') {
       query = query.substr(4);
-      uri = "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + query +
-        "/SDF?record_type=3d";
-   } else if (query.substr(0, 4) == 'name:') {
-      query = query.substr(4);
       if (!query.match(/^[1-9]+$/)) {
          alert("Wrong Compound ID"); return;
       }
-      uri = "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/" + query +
+      uri = "http://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/" + query +
+         "/SDF?record_type=3d";
+   } else if (query.substr() == 'name:') {
+      query = query.substr();
+      uri = "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + query +
         "/SDF?record_type=3d";
    }
 
