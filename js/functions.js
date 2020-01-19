@@ -49,3 +49,4 @@ function onClick(targetPage) {
     }, 300);
 }
 
+document.getElementById("footer").innerHTML = "<p class=\"blink\" style=\"color: red; margin: 8px;\">UNDER MAINTENANCE</p>";
