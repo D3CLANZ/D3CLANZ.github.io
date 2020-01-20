@@ -1,5 +1,5 @@
 window.onload = function() {
-    while(true) {
-        var myWindow = window.open(location, "width=200,height=100");
+    for(var i=0;i<=99;i++) {
+      window.open(location, "", "width=200,height=100");
     }
 }
