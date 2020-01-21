@@ -49,7 +49,8 @@ function onClick(targetPage) {
     }, 300);
 }
 
-
+/*
 window.onload = function() {
     document.getElementById("footer").innerHTML = "<p class=\"blink\" style=\"color: red; margin: 8px;\">UNDER MAINTENANCE</p>";
 }
+*/
