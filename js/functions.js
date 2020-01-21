@@ -46,7 +46,7 @@ function onClick(targetPage) {
     audio.play();
     setTimeout(function(){
         location.href = targetPage;
-    }, 300);
+    }, 500);
 }
 
 /*
