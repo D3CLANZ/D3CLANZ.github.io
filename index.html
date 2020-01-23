@@ -29,7 +29,7 @@
             <button onclick="onClick('./glmol/viewer')">GLMol</button><br/><br/> -->
             <h3>Other Stuff</h3>
             <button onclick="onClick('./archives')">Archives</button><br/>
-            <button id="ipbutton" onclick="$.getJSON('https://api.ipify.org?format=json',function(data) {$('#ipbutton').html(data.ip);});">What's my IP?</button><br/><br/>
+            <button id="ipbutton" onclick="document.getElementById('ipbutton').style.cursor = 'wait'; $.getJSON('https://api.ipify.org?format=json',function(data) {$('#ipbutton').html(data.ip);}); document.getElementById('ipbutton').style.cursor = 'auto';">What's my IP?</button><br/><br/>
         </div>
         
         <div class="footer" id="footer">
