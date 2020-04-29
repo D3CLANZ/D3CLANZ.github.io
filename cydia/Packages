@@ -7,9 +7,9 @@ Maintainer: D3CLANZ
 Author: anondev
 Section: Tweaks
 Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Conflicts: net.biteyourapple.localiapstore, com.hackyouriphone.localiapstore
 Filename: debs/me.declanz.localiapstore/me.declanz.localiapstore_1.4-2_iphoneos-arm.deb
 Size: 71040
 MD5sum: 922f94a4f4b404e9d06bb18d14286c7e
 SHA1: 2461d2f4e7b13e79c4c1f04c2d533b0099753088
 SHA256: a48720486f30a1c1bf9623b161306b817d2065a8d60bceb1e3f44c6f1b137fba
-Depiction:
