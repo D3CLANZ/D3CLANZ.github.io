@@ -1,0 +1,15 @@
+Package:
+Name: Test Package
+Version: 0.0.1-alpha
+Architecture: iphoneos-arm
+Description:
+Maintainer: D3CLANZ
+Author: D3CLANZ
+Section: Tweaks
+Depends:
+Filename:
+Size: 0
+MD5sum:
+SHA1:
+SHA256:
+Depiction:
