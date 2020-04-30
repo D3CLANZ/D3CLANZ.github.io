@@ -1,6 +1,6 @@
 Package: com.d3clanz.keepmyfolders
 Name: KeepMyFolders
-Version: 0.0.1-1+debug
+Version: 0.0.1-1
 Architecture: iphoneos-arm
 Description: Prevents folders from deleting themselves when they are empty.
 Maintainer: D3CLANZ
