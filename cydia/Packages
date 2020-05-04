@@ -7,7 +7,6 @@ Maintainer: D3CLANZ
 Author: D3CLANZ
 Section: Tweaks
 Depends: mobilesubstrate
-Conflicts: 
 Filename: ./debs/com.d3clanz.keepmyfolders_0.0.1_iphoneos-arm.deb
 Size: 2796
 MD5sum: 3505139a8aa403490226ca285166da2e
@@ -23,7 +22,6 @@ Maintainer: D3CLANZ
 Author: D3CLANZ
 Section: Tweaks
 Depends: mobilesubstrate
-Conflicts: 
 Filename: ./debs/com.d3clanz.cleardock_0.0.1_iphoneos-arm.deb
 Size: 2652
 MD5sum: ae0f8c69cecff5061838e70086f62eef
