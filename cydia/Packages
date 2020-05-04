@@ -9,7 +9,7 @@ Section: Tweaks
 Depends: mobilesubstrate
 Conflicts: 
 Filename: ./debs/com.d3clanz.keepmyfolders_0.0.1_iphoneos-arm.deb
-Size: 3228
-MD5sum: e06af1f8eb492c81e1870d395388b9cb
-SHA1: 51f6fa91720fe8eab021f9bc43d5db79194076a3
-SHA256: 89b0f46e797c077ff053582671d56acb217c0c8fa3497f8b858c62eab377989e
+Size: 2796
+MD5sum: 3505139a8aa403490226ca285166da2e
+SHA1: 67b10433a3e1dbfcd8d8dfae3493366bf5bdb10f
+SHA256: 425e702f24ac37c0095cbdcbf8e3888c243958a78b5d2ff7230f7414b9aaa42a
