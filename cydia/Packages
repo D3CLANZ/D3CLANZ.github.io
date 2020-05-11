@@ -1,44 +1,42 @@
-Package: com.d3clanz.keepmyfolders
-Name: KeepMyFolders
-Version: 0.0.1
-Architecture: iphoneos-arm
-Description: Prevents folders from deleting themselves when they are empty.
-Maintainer: D3CLANZ
-Author: D3CLANZ
-Section: Tweaks
-Depends: mobilesubstrate
-Filename: ./debs/com.d3clanz.keepmyfolders_0.0.1_iphoneos-arm.deb
-Size: 2796
-MD5sum: 3505139a8aa403490226ca285166da2e
-SHA1: 67b10433a3e1dbfcd8d8dfae3493366bf5bdb10f
-SHA256: 425e702f24ac37c0095cbdcbf8e3888c243958a78b5d2ff7230f7414b9aaa42a
-
 Package: com.d3clanz.cleardock
-Name: ClearDock
 Version: 0.0.1
-Architecture: iphoneos-arm
-Description: Makes the dock clear.
-Maintainer: D3CLANZ
-Author: D3CLANZ
 Section: Tweaks
+Maintainer: D3CLANZ
 Depends: mobilesubstrate
-Filename: ./debs/com.d3clanz.cleardock_0.0.1_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Filename: debs//com.d3clanz.cleardock_0.0.1_iphoneos-arm.deb
 Size: 2652
+Installed-Size: 120
 MD5sum: ae0f8c69cecff5061838e70086f62eef
-SHA1: cb7945c2175416cb3480d7353637539326e599bb
-SHA256: ac209b097cffaa7714a9a7b843fd4bfe75c5f84c3ca61056a22a5191da72145d
+Description: An awesome MobileSubstrate tweak!
+Name: ClearDock
+Author: D3CLANZ
+
+Package: com.d3clanz.keepmyfolders
+Version: 0.0.1
+Section: Tweaks
+Maintainer: D3CLANZ
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//com.d3clanz.keepmyfolders_0.0.1_iphoneos-arm.deb
+Size: 2796
+Installed-Size: 168
+MD5sum: 3505139a8aa403490226ca285166da2e
+Description: An awesome MobileSubstrate tweak!
+Name: KeepMyFolders
+Author: D3CLANZ
 
 Package: com.d3clanz.pokespoofx
-Name: PokéSpoofX
 Version: 0.0.1
-Architecture: iphoneos-arm
-Description: A spoofing tool for Pokémon Go.
-Maintainer: D3CLANZ
-Author: D3CLANZ
 Section: Tweaks
+Maintainer: D3CLANZ
 Depends: mobilesubstrate
-Filename: ./debs/com.d3clanz.pokespoofx_0.0.1_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Filename: debs//com.d3clanz.pokespoofx_0.0.1_iphoneos-arm.deb
 Size: 6412
+Installed-Size: 152
 MD5sum: 39b0147606a4fc0a5537c259b7997733
-SHA1: b68e6d2998f554ff05666e1fe22f7286ac595efa
-SHA256: 775c61f136631370149c6767a0e50c711bca87af3a5e0f01a71c51cd5cc281c2
+Description: Spoofs your location in Pokemon Go.
+Name: PokéSpoofX
+Author: D3CLANZ
+
