@@ -27,3 +27,18 @@ Size: 2652
 MD5sum: ae0f8c69cecff5061838e70086f62eef
 SHA1: cb7945c2175416cb3480d7353637539326e599bb
 SHA256: ac209b097cffaa7714a9a7b843fd4bfe75c5f84c3ca61056a22a5191da72145d
+
+Package: com.d3clanz.pokespoofx
+Name: PokéSpoofX
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: A spoofing tool for Pokémon Go.
+Maintainer: D3CLANZ
+Author: D3CLANZ
+Section: Tweaks
+Depends: mobilesubstrate
+Filename: ./debs/com.d3clanz.pokespoofx_0.0.1_iphoneos-arm.deb
+Size: 3708
+MD5sum: 3c3cac7a176d37f836433fdff32733fe
+SHA1: b94457f9faba89ada87e3e35d09b30ce0ad6043c
+SHA256: 90173e15b08e64e2f855410c53d9267d3a9e2fc12a1abef26d08f6481f1e7750
