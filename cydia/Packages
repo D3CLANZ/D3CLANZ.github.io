@@ -33,9 +33,9 @@ Maintainer: D3CLANZ
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: debs//com.d3clanz.pokespoofx_0.0.1_iphoneos-arm.deb
-Size: 6412
+Size: 7442
 Installed-Size: 152
-MD5sum: 39b0147606a4fc0a5537c259b7997733
+MD5sum: 93111a4806e3cee0b88cecc50932975a
 Description: Spoofs your location in Pokemon Go.
 Name: PokéSpoofX
 Author: D3CLANZ
