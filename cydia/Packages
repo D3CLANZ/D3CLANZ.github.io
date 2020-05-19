@@ -2,35 +2,21 @@ Package: com.d3clanz.cleardock
 Version: 0.0.1
 Section: Tweaks
 Maintainer: D3CLANZ
-Depends: mobilesubstrate
+Depends: firmware(<=9.3.6), mobilesubstrate
 Architecture: iphoneos-arm
 Filename: debs//com.d3clanz.cleardock_0.0.1_iphoneos-arm.deb
-Size: 2652
-Installed-Size: 120
-MD5sum: ae0f8c69cecff5061838e70086f62eef
-Description: An awesome MobileSubstrate tweak!
+Size: 2638
+Installed-Size: 152
+MD5sum: bf58613ecc70e3029987cb5ef37a5692
+Description: Makes the dock clear.
 Name: ClearDock
-Author: D3CLANZ
-
-Package: com.d3clanz.keepmyfolders
-Version: 0.0.1
-Section: Tweaks
-Maintainer: D3CLANZ
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: debs//com.d3clanz.keepmyfolders_0.0.1_iphoneos-arm.deb
-Size: 2796
-Installed-Size: 168
-MD5sum: 3505139a8aa403490226ca285166da2e
-Description: An awesome MobileSubstrate tweak!
-Name: KeepMyFolders
 Author: D3CLANZ
 
 Package: com.d3clanz.pokespoofx
 Version: 0.0.1
 Section: Tweaks
 Maintainer: D3CLANZ
-Depends: mobilesubstrate
+Depends: firmware(>=10.0), mobilesubstrate
 Architecture: iphoneos-arm
 Filename: debs//com.d3clanz.pokespoofx_0.0.1_iphoneos-arm.deb
 Size: 7442
